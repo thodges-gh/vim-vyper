@@ -1,22 +1,37 @@
 # vim-viper
-Vim syntax highlighting for the experimental programming language [Vyper](https://github.com/ethereum/vyper).
+
+Vim syntax highlighting for the experimental programming language [Vyper](https://vyper.readthedocs.io/en/stable/toctree.html).
 
 Work in progess.
 
 Currently uses *.vy.
 
+## Installation
+
+### Vim Plug
+
+Add the following to your `.vimrc`:
+
+```
+Plug 'thodges-gh/vim-vyper' " Vyper
+```
+
+Then run `:PlugInstall` within vim.
+
 ### Quick Install
+
 ```
-curl https://raw.githubusercontent.com/jacqueswww/vim-vyper/master/install.sh | sh
+curl https://raw.githubusercontent.com/thodges-gh/vim-vyper/master/install.sh | sh
 ```
-### Installation
+
+### Manual Instal
 
 Drop the appropriate files into:
 
 ```
 ~/.vim/syntax/
-~/.vim/ftdetect/ 
+~/.vim/ftdetect/
+~/.vim/indent/
 ```
 
 Note: Folders might have to be created.
-
