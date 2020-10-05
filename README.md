@@ -1,4 +1,4 @@
-# vim-viper
+# vim-vyper
 
 Vim syntax highlighting for the experimental programming language [Vyper](https://vyper.readthedocs.io/en/stable/toctree.html).
 
